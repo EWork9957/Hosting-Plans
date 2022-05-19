@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Hosting Plans</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<h1>Website Hosting Plans</h1>
+<div class="con">
+    <div class="p1">
+        <a onclick="openWindow1()"><div class="p1-placeholder">
+            <div class="basic box">
+                <h2 class="btitle">Basic</h2>
+            </div>
+        </div></a>
+        <div class="category">
+            <div class="cat">
+                <div class="cat-title">Monthly Price</div>
+                    <p target="p1" id="p1-monthly"></p>
+            </div>
+            <div class="cat">
+                <div class="cat-title">Disk Space</div>
+                    <p target="p1" id="p1-space"></p>
+            </div>
+            <div class="cat">
+                <div class="cat-title">Transfer Data</div>
+                    <p target="p1" id="p1-transfer"></p>
+            </div>
+            <div class="cat">
+                <div class="cat-title">Pages</div>
+                    <p target="p1" id="p1-pages"></p>
+            </div>
+            <div class="annual-cat">
+                <!-- annualPrice( , 2,3) -->
+                <div class="cat-title">Discounted Annual Price</div>
+                    <p target="p1" id="p1-annual"></p>
+            </div>
+        </div>
+    </div>
+<div class="p2">
+    <a onclick="openWindow2()"><div class="p2-placeholder">
+        <div class="prof box">
+            <h2 class="ptitle">Professional</h2>
+        </div>
+    </div></a>
+        <div class="category">
+            <div class="cat">
+                <div class="cat-title">Monthly Price</div>
+                    <p target="p2" id="p2-monthly"></p>
+            </div>
+        
+            <div class="cat">
+                <div class="cat-title">Disk Space</div>
+                    <p target="p2" id="p2-space"></p>
+            </div>
+            <div class="cat">
+                <div class="cat-title">Transfer Data</div>
+                    <p target="p2" id="p2-transfer"></p>
+            </div>
+            <div class="cat">
+                <div class="cat-title">Pages</div>
+                    <p target="p2" id="p2-pages"></p>
+            </div>
+
+            <div class="annual-cat">
+                <!-- annualPrice( , 2,3) -->
+                <div class="cat-title">Discounted Annual Price</div>
+                    <p target="p2" id="p2-annual"></p>
+            </div>
+        </div>
+</div>
+    <div class="p3">
+        <a onclick="openWindow3()"><div class="p3-placeholder">
+            <div class="ult box">
+                <h2 class="utitle">Ultimate</h2>
+            </div>
+        </div></a>
+            <div class="category">
+                <div class="cat">
+                    <div class="cat-title">Monthly Price</div>
+                        <p target="p3" id="p3-monthly"></p>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">Disk Space</div>
+                        <p target="p3" id="p3-space"></p>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">Transfer Data</div>
+                        <p target="p3" id="p3-transfer"></p>
+                </div>
+                <div class="cat">
+                    <div class="cat-title">Pages</div>
+                        <p target="p3" id="p3-pages"></p>
+                </div>
+                <div class="annual-cat">
+                    <div class="cat-title">Discounted Annual Price</div>
+                        <p target="p3" id="p3-annual"></p>
+                </div>
+            </div>
+    </div>
+</div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website Hosting Plans</title>
+        <link rel="stylesheet" href="annual-calc.css">
+    </head>
+<body>
+<h1>Website Hosting Plans</h1>
+    <div class="con">
+        <div class="p1">
+            <div class="p1-placeholder">
+                    <div class="basic box">
+                        <h2 class="btitle">Basic</h2>
+                    </div>
+            </div>
+                    <div class="category">
+                        <div class="cat">
+                            <div class="cat-title">Monthly Price</div>
+                                <p target="p1" id="p1-monthly"></p>
+                        </div>
+                    
+                        <div class="cat">
+                            <div class="cat-title">Disk Space</div>
+                                <p target="p1" id="p1-space"></p>
+                        </div>
+                        <div class="cat">
+                            <div class="cat-title">Transfer Data</div>
+                                <p target="p1" id="p1-transfer"></p>
+                        </div>
+                        <div class="cat">
+                            <div class="cat-title">Pages</div>
+                                <p target="p1" id="p1-pages"></p>
+                        </div>
+                        <div class="annual-cat">
+                            <div class="cat-title">Annual Price</div>
+                                <p target="p1" id="p1-annual"></p>
+                        </div>
+        </div>
+    </div>
+    <div class="p2">
+        <div class="p2-placeholder">
+                <div class="prof box">
+                    <h2 class="ptitle">Professional</h2>
+                </div>
+        </div>
+                <div class="category">
+                    <div class="cat">
+                        <div class="cat-title">Monthly Price</div>
+                            <p target="p2" id="p2-monthly"></p>
+                    </div>
+                
+                    <div class="cat">
+                        <div class="cat-title">Disk Space</div>
+                            <p target="p2" id="p2-space"></p>
+                    </div>
+                    <div class="cat">
+                        <div class="cat-title">Transfer Data</div>
+                            <p target="p2" id="p2-transfer"></p>
+                    </div>
+                    <div class="cat">
+                        <div class="cat-title">Pages</div>
+                            <p target="p2" id="p2-pages"></p>
+                    </div>
+                    <div class="annual-cat">
+                        <div class="cat-title">Annual Price</div>
+                            <p target="p2" id="p2-annual"></p>
+                    </div>
+        </div>
+    </div>
+    <div class="p3">
+        <div class="p3-placeholder">
+                <div class="ult box">
+                    <h2 class="utitle">Ultimate</h2>
+                </div>
+        </div>
+                <div class="category">
+                    <div class="cat">
+                        <div class="cat-title">Monthly Price</div>
+                            <p target="p3" id="p3-monthly"></p>
+                    </div>
+                
+                    <div class="cat">
+                        <div class="cat-title">Disk Space</div>
+                            <p target="p3" id="p3-space"></p>
+                    </div>
+                    <div class="cat">
+                        <div class="cat-title">Transfer Data</div>
+                            <p target="p3" id="p3-transfer"></p>
+                    </div>
+                    <div class="cat">
+                        <div class="cat-title">Pages</div>
+                            <p target="p3" id="p3-pages"></p>
+                    </div>
+                    <div class="annual-cat">
+                        <div class="cat-title">Annual Price</div>
+                            <p target="p3" id="p3-annual"></p>
+                    </div>
+        </div>
+    </div>
+</div>
+        <script src="annual-calc.js"></script>
+    </body>
+</html>
+ -->
